@@ -1,1 +1,36 @@
 @import url(variables.css);
+@font-face {
+    font-family: "titulos";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "textos";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+h1{
+    font-family: "titulos", sans-serif;
+    font-size: 5vw;
+}
+h2{
+    font-family: "titulos", sans-serif;
+    font-size: 1.7vw;
+    color: slategray;
+}
+p{
+    font-family: "textos", sans-serif;
+    font-size: 1.2vw;
+}
+.contenedor{
+    padding-left: 11vw;
+    padding-bottom: 16vw;
+    padding-right: 11vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.txt{
+    grid-column: span 3;
+    
+}
+/* .contenedor div{
+    border: 1px solid black;
+} */
