@@ -1,1 +1,74 @@
 @import url(variables.css);
+body{
+    background-color: var(--color-primary);
+}
+
+.contenedor{
+    padding-top: 3vw;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    padding-bottom: 16vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* .contenedor div{
+    border: 1px solid black;
+} */
+@font-face {
+    font-family: "titulo";
+    src: url(../storage/font/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "texto";
+    src: url(../storage/font/static/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "boton";
+    src: url(../storage/font/static/WorkSans-Medium.ttf);
+}
+h1{
+    font-family: "titulo",sans-serif;
+    font-size: 5vw ;
+}
+p{
+    font-family: "texto", sans-serif;
+    font-size: 1.8vw;
+}
+button{
+    font-family: "boton", sans-serif;
+    font-size: 1.5vw;
+    background-color: #E5B94B;
+    width: 9vw;
+    height: 3.5vw;
+    border-color: #E5B94B;
+    border-radius: 1vw;
+}
+#elsol{
+    position: absolute;
+    z-index: -3;
+    width: 33%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+#elseñor{
+    margin-top: 4vw;
+    margin-left: 2vw;
+    width: 30%;
+    position: absolute;
+    z-index: +1;
+}
+#puntos{
+    position: absolute;
+    z-index: -1;
+    margin-left: 22vw;
+    margin-top: 27vw;
+
+}
+#puntos1{
+    position: absolute;
+    z-index: -1;
+
+}
+.parte2{
+    padding-left: 4vw;
+}
