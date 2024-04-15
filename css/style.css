@@ -1,1 +1,101 @@
 @import url(variables.css);
+*{
+    padding: 0vw;
+    margin: 0vw;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-primary);
+}
+@font-face {
+    font-family: "titulo";
+    src: url(../storage/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(..//storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "mini";
+    src: url(../storage/font/Poppins-SemiBold.ttf);
+}
+.contenedor{
+    display: grid;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.contenedor div{
+    border: 1px solid;
+
+}
+
+.recuadro div{
+
+    background-color: white ;
+    padding: 2vw;
+}
+.recuadro{
+    border-radius: 60px;
+    position: absolute;
+    padding-top: 16vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 37vw;
+
+}
+#arriba{
+    position:absolute;
+    z-index: -1;
+    margin-left:  45vw;
+    width: 30vw;
+}
+#abajo{
+    margin-top: 3vw;
+    position: absolute;
+    z-index: -1;
+    width: 28vw;
+}
+
+h2{
+    font-family: "mini",sans-serif;
+    font-size: 1.5vw;
+    color: #363830;
+}
+.line{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-family: "titulo",sans-serif;
+    font-size: 1.5vw;
+}
+
+h1{
+    padding-left: 13vw;
+    font-family: "titulo", sans-serif;
+    font-size: 5vw;
+    color: #363830;
+    padding-bottom: 1vw;
+}
+#text{
+    padding-left: 13vw;
+    font-family: "regular", sans-serif;
+    font-size: 1.4vw;
+    color:#363830;
+    padding-bottom: 1.5vw;
+}
+button{
+    margin-left: 13vw;
+    width: 11vw;
+    height: 4.5vw;
+    font-family: "regular", sans-serif;
+    font-size: 1.4vw ;
+    border-radius: 3vw;
+    color: white;
+    background-color: #363830;
+    border-color: #363830;
+}
+.llll{
+    font-family: "regular",sans-serif;
+    font-size: 1vw;
+}
