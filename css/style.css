@@ -26,25 +26,22 @@ body{
     grid-template-columns: repeat(1,1fr);
 
 }
-.contenedor div{
-    border: 1px solid;
+
+.recuadro{
+    width: 62vw;
+    border-radius: 9vw;
+    background-color: #ffffff50;
+    margin: 13vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 37vw;
 
 }
 
 .recuadro div{
-
-    background-color: white ;
     padding: 2vw;
 }
-.recuadro{
-    border-radius: 60px;
-    position: absolute;
-    padding-top: 16vw;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-left: 37vw;
 
-}
 #arriba{
     position:absolute;
     z-index: -1;
@@ -62,8 +59,10 @@ h2{
     font-family: "mini",sans-serif;
     font-size: 1.5vw;
     color: #363830;
+    padding-left: 1vw;
 }
 .line{
+    margin-left: 1vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
     font-family: "titulo",sans-serif;
@@ -96,6 +95,8 @@ button{
     border-color: #363830;
 }
 .llll{
+    padding-left: 1.5vw;
     font-family: "regular",sans-serif;
     font-size: 1vw;
+    
 }
