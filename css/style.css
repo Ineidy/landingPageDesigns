@@ -4,6 +4,10 @@ body{
     background-color: #2F2F2F;
 }
 
+/* .imagen div{
+    border: 1px solid black;
+} */
+
 *{
     padding: 0;
     margin: 0;
@@ -11,13 +15,70 @@ body{
 }
 
 .principal{
+    padding-left: 15vw;
+    padding-right: 15vw;
     display: grid;
-    grid-template-columns: 40% 60% repeat(2, 1fr);
+    grid-template-columns: 45% 65% repeat(2, 1fr);
 
 }
 
+.contenedor{
+    padding-top: 10vw;
+}
 
 .imagen{
+
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 1vw;
+}
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/Poppins-Bold.ttf);
+}
+.m1{
+    font-family: "bold", sans-serif;
+    font-size: 4vw;
+    color: #FEC3C7;
+
+}
+.m2{
+    font-family: "bold", sans-serif;
+    font-size: 4vw;
+    color: #9AD7F3;
+}
+.m3{
+    font-family: "bold", sans-serif;
+    font-size: 4vw;
+    color:#6BDFDA ;
+    padding-bottom: 2vw;
+}
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+p{
+    font-family: "regular", sans-serif;
+    font-size: 1.3vw;
+    color: white;
+}
+
+button{
+    font-family: "regular", sans-serif;
+    font-size: 1.2vw;
+    border-radius: 3vw;
+    margin-top: 3vw;
+    height: 3.4vw;
+    width: 10vw;
+}
+
+.imagen1,.imagen2,.imagen3,.imagen4,.imagen5,.imagen6,.imagen7,.imagen8,.imagen9,.imagen10,.imagen11,.imagen12,.imagen13,.imagen14,.imagen15,.imagen16{
+
+    width: 10.4vw;
+    height: 11.5vw;
+}
+img{
+    width: 100%;
 }
