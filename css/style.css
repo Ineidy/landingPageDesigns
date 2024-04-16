@@ -1,1 +1,23 @@
 @import url(variables.css);
+
+body{
+    background-color: #2F2F2F;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 40% 60% repeat(2, 1fr);
+
+}
+
+
+.imagen{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
