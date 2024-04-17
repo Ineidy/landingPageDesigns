@@ -1,1 +1,64 @@
 @import url(variables.css);
+.contenedor div{
+    border: 1px solid black;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.contenedor{
+    padding-left: 11vw;
+}
+.todo{
+    display: flex;
+}
+.encima{
+    position: absolute;
+}
+.imgsdere{
+    display: flex;
+    justify-content: space-between;
+}
+.infofoto{
+    display: flex;
+}
+@font-face {
+    font-family: "titulo";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "texto";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: "boton";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+h1{
+    padding-top: 3vw;
+    font-family: "titulo", sans-serif;
+    font-size: 4vw;
+}
+#txt{
+    padding-top: 2vw;
+    font-family: "texto", sans-serif;
+    font-size: 1.5vw;
+}
+button{
+    margin-top: 1vw;
+    height: 4vw;
+    width: 11vw;
+    font-family: "boton", sans-serif;
+    font-size: 1.4vw;
+    color: white;
+    background-color: black;
+    border-radius:2vw ;
+    border-color: black;
+}
+.derecha{
+    width: 40vw;
+}
+.mano{
+    padding-bottom:3vw;
+}
