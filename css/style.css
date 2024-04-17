@@ -1,1 +1,83 @@
 @import url(variables.css);
+
+
+.contenedor1 {
+    padding-left:11vw ;
+    padding-right: 11vw;
+    display: flex;
+    flex-direction: column;
+}
+/* .contenedor1 div{
+    border: 1px solid  black;
+} */
+.txt{
+    display: flex;
+}
+.abajo{
+    justify-content: space-around;
+    display: flex;
+    background-color: black;
+    border-radius: 2vw;
+    margin-top: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+@font-face {
+    font-family: "titulo";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "Roman";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: "boton";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+
+h1{
+    padding-top: 4vw;
+    font-family: "titulo", sans-serif;
+    font-size: 4vw;
+
+}
+#txt{
+    font-family: "Roman", sans-serif;
+    font-size: 1.4vw;
+}
+.oscura{
+    width: 19vw;
+    margin-left: 13vw;
+    position: absolute;
+}
+.clarita{
+    width: 19vw;
+    margin-left: 26vw;
+    margin-top: 9vw;
+    position: absolute;
+}
+button{
+    font-family: "boton", sans-serif;
+    font-size: 1.3vw;
+    height: 4vw;
+    width: 11vw;
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 2vw;
+}
+h2{
+    font-family: "titulo", sans-serif;
+    font-size: 32px;
+    color: white;
+}
+@font-face {
+    font-family: "book";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Book.otf);
+}
+.white{
+    font-family: "book", sans-serif;
+    font-size: 1.2vw;
+    color: white;
+
+}
