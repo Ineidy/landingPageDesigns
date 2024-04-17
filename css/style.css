@@ -7,9 +7,7 @@
     display: flex;
     flex-direction: column;
 }
-/* .contenedor1 div{
-    border: 1px solid  black;
-} */
+
 .txt{
     display: flex;
 }
