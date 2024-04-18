@@ -1,20 +1,30 @@
 @import url(variables.css);
 .contenedor div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 .contenedor{
     padding-left: 11vw;
+    padding-right: 11vw;
 }
 .todo{
     display: flex;
 }
-.encima{
+.encimaestrella{
+    z-index: +3;
     position: absolute;
+    padding-left: 34.3vw;
+    padding-top: 22vw;
+}
+.encimalineas{
+    position: absolute;
+    padding-top: 4vw;
+    padding-left: 30vw;
 }
 .imgsdere{
     display: flex;
@@ -22,6 +32,7 @@
 }
 .infofoto{
     display: flex;
+    margin-top: 47vw;
 }
 @font-face {
     font-family: "titulo";
@@ -43,14 +54,14 @@ h1{
 #txt{
     padding-top: 2vw;
     font-family: "texto", sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
 }
 button{
     margin-top: 1vw;
     height: 4vw;
     width: 11vw;
     font-family: "boton", sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     color: white;
     background-color: black;
     border-radius:2vw ;
@@ -61,4 +72,31 @@ button{
 }
 .mano{
     padding-bottom:3vw;
+}
+#espiral{
+    padding-left: 6vw;
+    padding-top: 8vw;
+}
+#malla{
+    position: absolute;
+    padding-top: 4vw;
+    padding-left: 19vw;
+}
+#bloque{
+    position: absolute;
+    padding-left: 1vw;
+    padding-top: 15vw;
+}
+#estrella{
+    padding-left: 20vw;
+    padding-top: 30vw;
+    position: absolute;
+    padding-bottom:vw;
+}
+.infotxt{
+    font-family: "texto", sans-serif;
+    font-size: 1vw;
+    padding-right: 7vw;
+    padding-left: 1vw;
+    padding-top: .5vw;
 }
