@@ -5,14 +5,97 @@
     padding: 0;
     box-sizing: border-box;
 }
-.contenedor div{
-    border: 1px solid;
-}
+
 .contenedor{
     display: flex;
+    padding-top: 5vw;
     padding-left: 6vw;
     padding-right: 6vw;
 }
 .grande,.peque, .colorido{
     position: absolute;
+}
+.derecha{
+    display: flex;
+    flex-direction: column;
+
+}
+.explosion{
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+    width: 9vw;
+    margin-left: 6vw;
+}
+.izquierda{
+    display: flex;
+    flex-direction: column;
+}
+.sol{
+    width: 9vw;
+    margin-bottom: 2vw;
+    margin-left: 14vw;
+    margin-top: 2vw;
+}
+.colorido{
+    width: 43vw;
+    left: 21.5vw;
+    z-index: -1;
+}
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Times\ Regular.ttf);
+}
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/Typography\ Times\ Bold.ttf);
+}
+p{
+    font-family: "regular", sans-serif;
+    font-size: 1.2vw;
+}
+.mujercolor{
+    margin-left: 4vw;
+    margin-right: 4vw ;
+    width: 20vw;
+}
+h1{
+    font-family: "regular", sans-serif;
+    font-size: 5.5vw;
+    margin-top: 6vw;
+    margin-bottom: 1vw;
+}
+h3{
+    font-family: "bold", sans-serif;
+    font-size: 1.1vw;
+}
+.centro{
+    text-align: center;
+}
+@font-face {
+    font-family: "poppins";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+button{
+
+    margin-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: .5vw;
+    border-radius: 1.4vw;
+    color: white;
+    background-color: black;
+    border-color: black;
+    font-family: "poppins", sans-serif;
+    font-size: 1vw;
+}
+.grande{
+    width: 14vw;
+    margin-top: 7vw;
+    margin-left: 14vw;
+}
+.peque{
+    width: 10vw;
+    margin-left: 48vw;
+    margin-top: 23vw;
 }
