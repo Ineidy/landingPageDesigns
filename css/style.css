@@ -1,1 +1,65 @@
 @import url(variables.css);
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Times\ Regular.ttf);
+}
+@font-face {
+    font-family: "poppins";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+h1{
+    font-family: "regular", sans-serif;
+    font-size: 3vw;
+    color: #252525;
+}
+h2{
+
+    font-family: "regular", sans-serif;
+    font-size: 2vw;
+
+}
+p{
+    font-family: "regular", sans-serif;
+    font-size: 1.2vw;
+    color: #252525;
+}
+button{
+    font-family: "poppins", sans-serif;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: .7vw;
+    padding-bottom: .7vw;
+    border-radius: 2vw;
+    color: white;
+    background-color: #457D61;
+    border-color: #457D61;
+    margin-bottom: 2vw;
+}
+/* .contenedor div{
+    border: 1px solid;
+} */
+.estrella1, .estrella2{
+    position: absolute;
+}
+.contenedor{
+    padding-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.centro img{
+    margin-top: 6vw;
+    width: 20vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+.estrella1{
+    padding-top: 5vw;
+    padding-left: 21vw;
+}
+.estrella2{
+    padding-left: 49vw;
+    padding-top: 18vw;
+}
