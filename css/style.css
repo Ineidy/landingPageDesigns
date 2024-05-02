@@ -1,1 +1,86 @@
 @import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "MEDIUM";
+    src: url(../storage/font/RobotoMono-Medium.ttf);
+}
+@font-face {
+    font-family: "BOLD";
+    src: url(../storage/font/RobotoMono-Bold.ttf);
+}
+@font-face {
+    font-family: "REGULAR";
+    src: url(../storage/font/RobotoMono-Regular.ttf);
+}
+body{
+    padding-top: 1vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    color: #ffffff;
+    background-color: black;
+}
+.fondo{
+    position: absolute;
+    z-index: -1;
+}
+.demas{
+    display: flex;
+    flex-direction: column;
+
+}
+.recuadros{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.txt{
+    margin-top: 11vw;
+    text-align: center;
+}
+.txt h1{
+    font-family: "BOLD", sans-serif;
+    font-size: 5vw;
+    margin-bottom: 30px;
+}
+.txt p{
+    font-family: "REGULAR", sans-serif;
+    font-size: 1.6vw;
+}
+.recuadros{
+    /* background-color: aqua; */
+    
+    display: grid;
+    margin-top: 3vw;
+    row-gap: 3vw;
+    
+}
+
+.primero{
+    border-radius: 20PX;
+    background-color: #ffffff4d;
+    font-family: "MEDIUM", sans-serif;
+    font-size: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-left: 8vw;
+    margin-right: 21vw;
+    display: flex;
+}
+.segundo{
+    border-radius: 20px;
+    background-color: #ffffff4d;
+    font-size: 1vw;
+    font-family: "MEDIUM", sans-serif;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-left: -19vw;
+    margin-right: 8.5vw;
+    display: flex;
+}
+.imgn{
+
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
