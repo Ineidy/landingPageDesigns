@@ -4,7 +4,8 @@ Actividades de maquetacion y diseño web
 
 # Justificacion de el trabajo realizado respecto a las Landing Page
 
-![alt text](image-1.png)
+
+![image](https://github.com/Ineidy/landingPageDesigns/assets/160775201/274e9a6a-cf07-45d6-b8fa-73e087da7b56)
 
 
 Las landing Pages las inicie dos dias despues de lo que el profesor mando, ya que estaba intentando mas que todo entender que estaba haciendo antes de iniciar, por lo que empece el proyecto el dia 13 de abril, ese sabado inicie con las 5 primeras landing pages, hice bastantes para estar mas que todo al dia, y aprender mas rapido.
